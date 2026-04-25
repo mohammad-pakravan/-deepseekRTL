@@ -1,0 +1,29 @@
+﻿{
+    "manifest_version": 3,
+    "name": "Persian Chat RTL Fixer",
+    "version": "1.0",
+    "description": "راست‌چین کردن خودکار پیام‌های فارسی در چت",
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": [
+      "*://chat.deepseek.com/*",
+      "*://deepseek.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Persian RTL Fixer" 
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "*://chat.deepseek.com/*",
+          "*://deepseek.com/*"
+        ],
+        "js": ["content.js"],
+        "css": ["style.css"],
+        "run_at": "document_end"
+      }
+    ]
+  }

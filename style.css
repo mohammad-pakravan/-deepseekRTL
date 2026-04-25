@@ -1,0 +1,45 @@
+﻿table {
+    direction: rtl !important;
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 10px 0 !important;
+  }
+  
+  th, td {
+    direction: rtl !important;
+    text-align: right !important;
+    padding: 8px 12px !important;
+    border: 1px solid #ddd !important;
+    vertical-align: top !important;
+  }
+  
+  .md-code-block, 
+  .md-code-block-light, 
+  pre, 
+  code, 
+  button, 
+  .ds-icon-button, 
+  nav,
+  .ds-sidebar,
+  input,
+  textarea {
+    direction: ltr !important;
+    text-align: left !important;
+    font-family: monospace !important;
+    unicode-bidi: normal !important;
+  }
+  
+  ol, ul {
+    padding-right: 25px !important;
+    padding-left: 0 !important;
+  }
+  
+  li {
+    margin-right: 20px !important;
+    margin-left: 0 !important;
+  }
+  
+  .timestamp, .time, .date, [class*="time"] {
+    direction: ltr !important;
+    text-align: left !important;
+  }
