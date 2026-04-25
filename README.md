@@ -22,5 +22,10 @@
 4. روی **Load unpacked** کلیک کن و پوشه اکسترکت شده رو انتخاب کن
 
 ### روش 2: از طریق گیت‌هاب
+1.از طریق cli گیت مخزن رو دانلود کن : 
 ```bash
 git clone https://github.com/mohammad-pakravan/-deepseekRTL.git
+
+2. در کروم به آدرس `chrome://extensions` برو
+3. **حالت توسعه‌دهنده** رو روشن کن
+4. روی **Load unpacked** کلیک کن و پوشه اکسترکت شده رو انتخاب کن
