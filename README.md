@@ -1,6 +1,6 @@
-﻿# 🇮🇷 Persian Chat RTL Fixer
+﻿# 🇮🇷 DeepSeek Chat RTL Fixer
 
-افزونه کروم برای راست‌چین کردن خودکار پیام‌های فارسی در سایت چت
+افزونه کروم برای راست‌چین کردن خودکار پیام‌های فارسی در سایت DeepSeek
 
  
 
@@ -23,4 +23,4 @@
 
 ### روش 2: از طریق گیت‌هاب
 ```bash
-git clone https://github.com/yourusername/persian-rtl-fixer.git
+git clone https://github.com/mohammad-pakravan/-deepseekRTL.git
